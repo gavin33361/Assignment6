@@ -1,0 +1,41 @@
+/*setting the appearance of the div*/
+div {
+	background-color: limegreen;
+	width: 40%;
+	border: 1px solid black;
+	height: 100px;
+	margin: 25px;
+}
+
+/*I use relative because I want it to center based on its relative location*/
+#one {
+	position: relative;
+	left: 25%;
+}
+
+/*makes it an inline so it can share space with the other div*/
+#two {
+	display: inline-block;
+}
+
+/*inline so it can share space with other div*/
+#three {
+	display: inline-block;
+}
+
+/*I use relative so the div inside would be based on this div*/
+#four {
+	position: relative;
+}
+
+/*I used absolute since I want it to be based on the upper left corner and I set bottom and right to 0 so it would start
+	at the right most bottom.*/
+#five {
+	background-color: blue;
+	margin: 0;
+	position: absolute;
+	width: 20px;
+	height: 10px;
+	bottom: 0;
+	right: 0;
+}
